@@ -13,10 +13,11 @@
         text-align: center;
         padding: window;
         border-right: 2px solid white;
+        border-left:2px solid white;
         text-decoration: none;
         font-size: 20px;
       }
-      .nav-item:first-child {
+      .none {
         border-right: none;
       }
       .nav-item:hover {
@@ -28,14 +29,14 @@
         color: white;
       }
       nav a {
-        display: inline;
+        display: inline-block;
       }
     </style>
   </head>
   <body>
     <nav>
       <a><h3>MCCO</h3></a>
-      <a class = "nav-item" href="#Projects">Projects</a>
+      <a class = "nav-item none" href="#Projects">Projects</a>
       <a class = "nav-item" href="#About">About</a>
       <a class="nav-item active" href="#home">Home</a>
     </nav>
